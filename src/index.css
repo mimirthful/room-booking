@@ -52,7 +52,8 @@ main {
   border-radius: 10px;
   min-width: 100px;
   font-size: 1.2em ;
-  color: #EEE2DC
+  color: #EEE2DC;
+  font-weight: bold;
  }
  button:hover {
   background-color: #dd9245;
@@ -97,7 +98,11 @@ li {
   margin: 0 auto; /* centers the div horizontally */
 }
 
-
+#bookingDiv {
+  padding: 1em;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
 
 iframe {
   border-width: 0;
@@ -138,10 +143,7 @@ footer {
   display: flex;
 }
 
-hr {
-  margin: 1em;
-  color: #dd9245;
-}
+
 #languageArea {
   color: #ffffff;
   justify-content: right;
@@ -159,10 +161,47 @@ hr {
   color:#dd9245
 }
 
+#villageImg
+{
+  width: 120px;
+}
+
+#bookImg
+{
+  width: 100px;
+}
+
+#frogImg
+{
+  width: 150px;
+}
+.borderImg
+{
+  width: 200px;
+}
 
 /* ------- MOBILE STARTS HERE----------*/
 
 @media (max-width: 600px) {
+  * {
+    font-size: 1.01em;
+  }
+  .borderImg
+{
+  width: 250px;
+}
+  #villageImg {
+    width: 170px;
+  }
+  #bookImg
+  {
+    width: 170px;
+  }
+
+  #frogImg
+  {
+    width: 200px;
+  }
     #title, footer {
       flex-direction: column; /* stack items vertically */
       gap: 10px; /* smaller gap between items */
@@ -199,7 +238,7 @@ hr {
     }
 
     
-    label, ol, #error, hr {
+    label, ol, #error {
       margin: 0px;
 
     }
@@ -210,7 +249,7 @@ hr {
     }
     
     iframe {
-      height: 1600px;
+      height: 1520px;
     }
 
     #agreeArea {
@@ -223,7 +262,6 @@ hr {
       margin: 14px;
     }
     
-    
     #languageArea button {
       background-color: #123c6900;
       border-style: none;
@@ -234,6 +272,15 @@ hr {
     #backToMain {
       display: block;
       padding: 10px 0;
+    }
+    
+    #birdImg {
+      display: none;
+    }
+    
+    #bookingDiv
+    {
+      padding: 1em 0;
     }
     address {
       text-align: left;

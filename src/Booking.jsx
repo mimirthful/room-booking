@@ -7,17 +7,18 @@ export default function Booking() {
     return (
       <>
       <div id="backToMain">
-      <img src={birdImage} width={100} alt= "comic styled picture of a bird"/> <button onClick={() => setAgree(false)}>Takaisin etusivulle</button>
+      <img src={birdImage} id="birdImg" width={100} alt= "comic styled picture of a bird"/> <button onClick={() => setAgree(false)}>Takaisin etusivulle</button>
       </div>
-      <hr/>
-      <img src={borderImage} width={200} alt= "comic styled border decoration made of flowers"/>
+      <div id="bookingDiv">
+      <img className="borderImg" src={borderImage} alt= "comic styled border decoration made of flowers"/>
         <iframe
           src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2u9sNkLJEOnOV_zr9zsI-lm0tLjXwNgMMvlWSYduLAaipKqUMPgst9R9ZX0LcszitB-R6Nn-PS?gv=true"
           width="100%"
           height="800"
         ></iframe>
-        <img src={borderImage} width={200} alt= "comic styled border decoration made of flowers" style={{ transform: 'rotate(180deg)' }} />
-      </>
+        <img className="borderImg" src={borderImage}  alt= "comic styled border decoration made of flowers" style={{ transform: 'rotate(180deg)' }} />
+        </div>
+        </>
     );
   }
   

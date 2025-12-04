@@ -2,7 +2,7 @@ import frogImage from "./assets/cute-9720393.svg"
 export default function Footer()
 {
     return <footer>
-        <img src={frogImage} width={150} alt="drawn picture of a frog"/>
+        <img id="frogImg" src={frogImage} alt="drawn picture of a frog"/>
         <address>
         Sivut on luonut <a href="https://github.com/mimirthful">Alex Lankio</a> <br/>
          Annala Iso-Heikkilän asukastoimikunnalle.<br/>
