@@ -1,7 +1,7 @@
 export default function Footer()
 {
     return <footer>
-        <img src="/public/cute-9720393.svg" width={150} />
+        <img src="/room-booking/cute-9720393.svg" width={150} />
         <address>
         Sivut on luonut <a href="https://github.com/mimirthful">Alex Lankio</a> <br/>
          Annala Iso-Heikkilän asukastoimikunnalle.<br/>
