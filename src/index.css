@@ -159,19 +159,88 @@ hr {
   color:#dd9245
 }
 
+
+/* ------- MOBILE STARTS HERE----------*/
+
 @media (max-width: 600px) {
-  #title {
-    flex-direction: column; /* stack items vertically */
-    gap: 10px; /* smaller gap between items */
-  }
-  footer {
-    flex-direction: column; /* stack items vertically */
-    gap: 10px; /* smaller gap between items */
-  }
-  #languageArea {
-    margin: 40px;
-    justify-content: center;
-  }
+    #title, footer {
+      flex-direction: column; /* stack items vertically */
+      gap: 10px; /* smaller gap between items */
+    }
+
+    #languageArea {
+      margin: 15px 0;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      line-height: 1.1;
+    }
+    
+    h2, h3 {
+      text-align: center;
+      font-size: 1.2em;
+    }
+    
+    header {
+      padding: 10px 0;
+    }
+
+    main {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.2em;
+      margin: 0;
+    }
+    
+    button {
+      margin: 2em;
+      padding: 20px;
+    }
+
+    
+    label, ol, #error, hr {
+      margin: 0px;
+
+    }
+
+    li {
+      margin: 1em 0em;
+
+    }
+    
+    iframe {
+      height: 1600px;
+    }
+
+    #agreeArea {
+      margin: 0.2em 0em;
+      padding: 0.5em;
+    }
+    
+    
+    input.larger {
+      margin: 14px;
+    }
+    
+    
+    #languageArea button {
+      background-color: #123c6900;
+      border-style: none;
+      padding: 0;
+      margin: 0 10px;
+    }
+
+    #backToMain {
+      display: block;
+      padding: 10px 0;
+    }
+    address {
+      text-align: left;
+      font-size: 0.8em;
+      line-height: 1.4em;
+    }
+
 }
   
 
