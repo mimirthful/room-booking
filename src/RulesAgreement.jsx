@@ -1,5 +1,6 @@
 import {useState, useContext} from "react";
 import { AgreementContext } from "./AgreementContext";
+import { LanguageContext } from "./LanguageContext"
 
 
 export default function RulesAgreement()
@@ -8,6 +9,7 @@ export default function RulesAgreement()
     const [error, setError] = useState (false)
     const [Agreed, setAgree] = useContext(AgreementContext)
     const [border, setBorderState] = useState("0");
+    const { Language } = useContext(LanguageContext);
 
     function HandleClick()
     {
@@ -26,12 +28,12 @@ export default function RulesAgreement()
     <div id="agreeArea">
         <div style={{borderStyle:border, borderWidth:"1px", borderColor:"#c3653e", borderRadius:"5px"}}>
         <input type="checkbox" className="larger" id="AgreeBox" checked={Checked} onChange={(e) => setCheck(e.target.checked)} />
-        <label htmlFor="AgreeBox">Ymmärrän lukemani säännöt ja hyväksyn ne</label>
+        <label htmlFor="AgreeBox">{Language.understoodBox}</label>
         </div>
     <br/>
 
-    <button onClick={HandleClick}> Jatka </button> 
-    {error && <p id="error">Hyväksy säännöt jatkaaksesi ajanvaraukseen</p>}
+    <button onClick={HandleClick}> {Language.continueButtonText} </button> 
+    {error && <p id="error">{Language.errorText}</p>}
     </div>
     </>
 }

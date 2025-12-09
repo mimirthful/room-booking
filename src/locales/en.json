@@ -1,0 +1,31 @@
+{
+    "title": "Iso-Heikkilä's Clubroom booking",
+    "rulesTitle":"Rules for the Common Room",
+    "rulesFirst":"If you notice anything wrong in the common room (e.g. broken items, uncleaned areas, furniture out of place, etc.).",
+    "rulesFirstBoldPart":"report it to the residents’ committee immediately. Otherwise, you will be held responsible for any issues found during the inspection after your reservation.",
+    "rulesSecond":"If you rearrange the furniture, make sure to return everything to its original place before your reservation ends.",
+    "rulesThird":"Vacuum the floors, take out your trash, wipe down tables and other surfaces, wash any dishes you have used, and empty the refrigerator before leaving.",
+    "rulesFourth":"Ensure that the windows and the main door are properly closed before you exit.",
+    "rulesFifth":"Return the key according to the agreed instructions once your reservation has ended.",
+    "rulesSixth":"Take good care of the key. If the key is lost or damaged, the cost will be charged to the person who made the reservation.",
+    
+    "rulesAddendumOne":"After each reservation, the common room will be inspected by the residents’ committee.",
+    "rulesAddendumTwo":"If cleaning has been neglected or furniture is not in its original place, you may be required to correct the issues.",
+    "rulesAddendumThree":"If cleaning takes more time than normal maintenance requires, the residents’ committee has the right according to the agreement with TOAS to charge the cleaning fees from the person who made the reservation",
+    "rulesAddendumFour":"If items have been broken and the act is considered intentional or clearly careless, you may be charged for the damage.",
+    "rulesAddendumFive":"Repeated rule violations or unpaid charges may result in your right to reserve the common room being restricted for up to six months. The length of the restriction depends on the severity of the violation.",
+    "rulesAddendumSix": "These rules exist to keep the common room pleasant to use and to ensure that reservations can continue to be offered.",
+    "rulesAddendumSeven": "By making a reservation, you agree to follow these rules.",
+
+    "understoodBox": "I understand the rules and accept them.",
+    "continueButtonText" : "Continue",
+    "errorText": "You must accept the rules to continue",
+
+    "footerTextOne": "This page is by ",
+    "footerTextTwo": "for Annala Iso-Heikkilä's tenants' committee.",
+    "footerTextThree": "This page has been created by a volunteer and it is not maintained by TOAS.",
+    "footerTextFour": "If the page is broken, email ",
+    "footerTextFive": "In other matters, contact ",
+
+    "backToMainButtonText": "Back to main page"
+}

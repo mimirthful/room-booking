@@ -1,0 +1,31 @@
+{
+    "title": "Iso-Heikkilän Kerhohuoneen varaus",
+    "rulesTitle":"Kerhohuoneen säännöt",
+    "rulesFirst":"Mikäli huomaat jonkin olevan vialla kerhohuoneella (esim. rikkinäisiä tavaroita, paikat siivoamatta, huonekalut väärillä paikoillaan jne.),",
+    "rulesFirstBoldPart":" ilmoita siitä välittömästi asukastoimikunnalle. Muussa tapauksessa vastaat itse kaikista varauksesi jälkeisessä tarkastuksessa havaituista puutteista.",
+    "rulesSecond":"Mikäli muutat kerhohuoneen huonekalujen järjestystä, palauta ne omille paikoilleen ennen varauksesi päättymistä. ",
+    "rulesThird":"Imuroi lattiat, vie roskasi pois, pyyhi pöydät sekä muut tasot, tiskaa käyttämäsi astiat ja tyhjennä jääkaappi ennen varauksesi päättymistä. ",
+    "rulesFourth":"Varmista, että ikkunat ja ulko-ovi ovat huolellisesti suljettuina ennen poistumistasi.",
+    "rulesFifth":"Palauta kerhohuoneen avain ennalta sovitulla tavalla varauksen jälkeen.",
+    "rulesSixth":"Pidä kerhohuoneen avaimesta hyvää huolta. Kadonneesta tai vioittuneesta avaimesta aiheutuvat kulut veloitetaan varaajalta.",
+    
+    "rulesAddendumOne":"Kerhohuone tarkastetaan varauksen päätyttyä asukastoimikunnan toimesta.",
+    "rulesAddendumTwo":"Mikäli siivouspuutteita havaitaan tai huonekalut ovat väärillä paikoilla, sinut voidaan velvoittaa korjaamaan ne.",
+    "rulesAddendumThree":"Jos siivoamiseen kuluu normaalia ylläpitosiivousta enemmän aikaa, asukastoimikunnalla on TOASin kanssa tehdyn sopimuksen mukaisesti oikeus veloittaa siivouskustannukset varaajalta.",
+    "rulesAddendumFour":"Mikäli tavaroita on rikottu, ja toiminnan katsotaan olleen tahallista tai selkeästi huolimatonta, voidaan sinulle lähettää korvauslasku, joka on maksettava.",
+    "rulesAddendumFive":"Toistuvat sääntörikkomukset tai laskujen maksamatta jättäminen voivat johtaa varausoikeuden rajoittamiseen enintään kuudeksi kuukaudeksi. Rajoituksen pituus määräytyy rikkomusten vakavuuden perusteella.",
+    "rulesAddendumSix": "Nämä säännöt on laadittu kerhohuoneen viihtyvyyden ja varausmahdollisuuden säilyttämiseksi.",
+    "rulesAddendumSeven": "Varaamalla kerhohuoneen sitoudut noudattamaan näitä sääntöjä.",
+    
+    "understoodBox": "Ymmärrän lukemani säännöt ja hyväksyn ne",
+    "continueButtonText" : "Jatka",
+    "errorText": "Hyväksy säännöt jatkaaksesi ajanvaraukseen",
+
+    "footerTextOne": "Sivut on luonut",
+    "footerTextTwo": "Annala Iso-Heikkilän asukastoimikunnalle.",
+    "footerTextThree": "Nämä sivut on tehty vapaaehtoisesti, eivätkä ole TOASin ylläpitämät.",
+    "footerTextFour": "Jos sivut ovat rikki, pistä sähköpostia",
+    "footerTextFive": "Muissa asioissa ota yhteyttä",
+
+    "backToMainButtonText": "Takaisin etusivulle"
+}
