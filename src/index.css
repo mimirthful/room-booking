@@ -150,6 +150,7 @@ footer {
   justify-content: right;
   display: flex;
   align-items: center;
+  margin: 30px;
 }
 #languageArea button {
   background-color: #123c6900;
