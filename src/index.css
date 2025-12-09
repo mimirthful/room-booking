@@ -2,7 +2,6 @@
   margin:0;
   padding: 0;
   color: #123C69;
-  font-family: "Inter", sans-serif;
   line-height: 1.3;
   
 }
@@ -36,13 +35,16 @@ header {
   padding: 0 20px 20px 20px;
 }
 main {
+  margin: auto;
+  max-width: 900px;
+  min-height: 1400px;
+  padding: 2.5em;
   text-align: center;
-  padding: 20px;
   border-radius: 20px 20px 0 0;
   background-color: #eee2dc;
   border-style: solid;
   border-color: #dd9245;
- }
+}
 
  button {
   margin: 1em;
@@ -70,10 +72,6 @@ main {
   margin: 10px;
 }
 
-label {
-  margin: 5px;
-}
-
 ol {
   margin: 1em;
 }
@@ -86,11 +84,16 @@ li {
   margin: auto; /* centers image horizontally, adds vertical spacing */
   max-width: 100%;  /* keeps image responsive */
 }
-#rules
+#rules, #bookingDiv
 {
+  row-gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #ffffff;
   padding: 2em;
   max-width: 50em;
+  min-height: 1060px;
   border-color: #dd9245;
   border-style: dotted;
   border-radius: 20px;
@@ -98,15 +101,15 @@ li {
   text-align: left;
   margin: 0 auto; /* centers the div horizontally */
 }
-
 #bookingDiv {
-  padding: 1em;
-  background-color: #ffffff;
-  border-radius: 20px;
+  text-align: center;   
+  align-items:center;
 }
 
 iframe {
   border-width: 0;
+  width:100%;
+  height: 800px;
   background-color: #ffffff;
   border-radius: 20px;
 }
@@ -116,7 +119,8 @@ iframe {
 }
  label {
   font-weight: bold;
- }
+  margin: 5px;
+}
 
  #title {
   justify-content: center;
@@ -131,19 +135,27 @@ input.larger {
 }
 
 footer {
+  margin: auto;
+  max-width: 900px;
   gap: 30px; 
   background-color:#dd9245;
   border-radius: 0 0 20px 20px;
-  padding: 1em;
+  padding: 2.5em;
   justify-content: center;
   display: flex;
   align-items: center;
+  border-style: solid;
+  border-color: #dd9245;
 }
 
 #backToMain {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   display: flex;
+  margin: 1em;
+  padding: 1em;
 }
-
 
 #languageArea {
   color: #ffffff;
@@ -182,6 +194,7 @@ footer {
   width: 200px;
 }
 
+
 /* ------- MOBILE STARTS HERE----------*/
 
 @media (max-width: 600px) {
@@ -207,6 +220,7 @@ footer {
     #title, footer {
       flex-direction: column; /* stack items vertically */
       gap: 10px; /* smaller gap between items */
+      margin: 0 0.4em;
     }
 
     #languageArea {
@@ -216,6 +230,8 @@ footer {
     h1 {
       font-size: 1.5em;
       line-height: 1.1;
+      text-align: center;
+      margin: 0.5em 1em;
     }
     
     h2, h3 {
@@ -228,10 +244,9 @@ footer {
     }
 
     main {
-      width: 100%;
       box-sizing: border-box;
       padding: 0.2em;
-      margin: 0;
+      margin: 0 0.4em;
     }
     
     button {
@@ -255,20 +270,12 @@ footer {
     }
 
     #agreeArea {
-      margin: 0.2em 0em;
-      padding: 0.5em;
+      padding: 0.2em;
     }
     
     
     input.larger {
       margin: 14px;
-    }
-    
-    #languageArea button {
-      background-color: #123c6900;
-      border-style: none;
-      padding: 0;
-      margin: 0 10px;
     }
 
     #backToMain {
