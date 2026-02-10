@@ -27,5 +27,7 @@
     "footerTextFour": "If the page is broken, email ",
     "footerTextFive": "In other matters, contact ",
 
-    "backToMainButtonText": "Back to main page"
+    "backToMainButtonText": "Back to main page",
+
+    "bookingAmount": "The room may be reserved for a maximum of three days within a two-week period."
 }

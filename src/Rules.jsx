@@ -31,6 +31,7 @@ function Rules ()
                 </li>
             </ol>
             <img id="bookImg" src={bookImage} alt="Comic styled picture of an open book with flowers around it"/>
+            <p>{Language.bookingAmount}</p>
     <p> <strong> {Language.rulesAddendumOne} </strong> {Language.rulesAddendumTwo} </p>
     <p> {Language.rulesAddendumThree} </p>
     <p>  {Language.rulesAddendumFour}</p>
