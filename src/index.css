@@ -1,11 +1,13 @@
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
-  color: #123C69;
+  color: #123c69;
   line-height: 1.3;
-  
 }
 
+p {
+  margin: 5px 0;
+}
 h1 {
   font-size: 2.2em;
   line-height: 1.1;
@@ -14,13 +16,19 @@ h1 {
   font-weight: 600;
 }
 
-h2, h3 {
+h2,
+h3 {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
   line-height: 1.1;
-  color: #123C69;
+  color: #123c69;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+}
+
+h3 {
+  text-align: left;
+  font-size: 1.1em;
 }
 
 body {
@@ -46,46 +54,50 @@ main {
   border-color: #dd9245;
 }
 
- button {
+button {
   margin: 1em;
-  display:inline-block;
+  display: inline-block;
   background-color: #c3653e;
   padding: 15px;
   border-color: #c3653e;
   border-radius: 10px;
   min-width: 100px;
-  font-size: 1.2em ;
-  color: #EEE2DC;
+  font-size: 1.2em;
+  color: #eee2dc;
   font-weight: bold;
- }
- button:hover {
+}
+button:hover {
   background-color: #dd9245;
   border-color: #dd9245;
- }
- button:focus {
+}
+button:focus {
   background-color: #dd9245;
   border-color: #dd9245;
- }
+}
 #error {
-  color:#c3653e;
+  color: #c3653e;
   font-weight: bold;
   margin: 10px;
 }
 
-ol {
-  margin: 1em;
+ol,
+ul {
+  margin: 0 1em;
 }
+
 li {
   margin: 0.5em;
 }
-
-#rules img {
-  display: block;   /* makes image a block element */
-  margin: auto; /* centers image horizontally, adds vertical spacing */
-  max-width: 100%;  /* keeps image responsive */
+ul li {
+  margin: 0.3em 0;
 }
-#rules, #bookingDiv
-{
+#rules img {
+  display: block; /* makes image a block element */
+  margin: auto; /* centers image horizontally, adds vertical spacing */
+  max-width: 100%; /* keeps image responsive */
+}
+#rules,
+#bookingDiv {
   row-gap: 15px;
   display: flex;
   flex-direction: column;
@@ -102,13 +114,13 @@ li {
   margin: 0 auto; /* centers the div horizontally */
 }
 #bookingDiv {
-  text-align: center;   
-  align-items:center;
+  text-align: center;
+  align-items: center;
 }
 
 iframe {
   border-width: 0;
-  width:100%;
+  width: 100%;
   height: 800px;
   background-color: #ffffff;
   border-radius: 20px;
@@ -117,16 +129,16 @@ iframe {
   margin: 1em;
   padding: 1em;
 }
- label {
+label {
   font-weight: bold;
   margin: 5px;
 }
 
- #title {
+#title {
   justify-content: center;
   display: flex;
   align-items: center;
-  gap: 10px;      
+  gap: 10px;
 }
 
 input.larger {
@@ -137,8 +149,8 @@ input.larger {
 footer {
   margin: auto;
   max-width: 900px;
-  gap: 30px; 
-  background-color:#dd9245;
+  gap: 30px;
+  background-color: #dd9245;
   border-radius: 0 0 20px 20px;
   padding: 2.5em;
   justify-content: center;
@@ -172,28 +184,23 @@ footer {
 }
 
 #languageArea button:hover {
-  color:#dd9245
+  color: #dd9245;
 }
 
-#villageImg
-{
+#villageImg {
   width: 120px;
 }
 
-#bookImg
-{
+#bookImg {
   width: 100px;
 }
 
-#frogImg
-{
+#frogImg {
   width: 150px;
 }
-.borderImg
-{
+.borderImg {
   width: 200px;
 }
-
 
 /* ------- MOBILE STARTS HERE----------*/
 
@@ -201,102 +208,95 @@ footer {
   * {
     font-size: 1.01em;
   }
-  .borderImg
-{
-  width: 250px;
-}
+  .borderImg {
+    width: 250px;
+  }
   #villageImg {
     width: 170px;
   }
-  #bookImg
-  {
+  #bookImg {
     width: 170px;
   }
 
-  #frogImg
-  {
+  #frogImg {
     width: 200px;
   }
-    #title, footer {
-      flex-direction: column; /* stack items vertically */
-      gap: 10px; /* smaller gap between items */
-      margin: 0 0.4em;
-    }
+  #title,
+  footer {
+    flex-direction: column; /* stack items vertically */
+    gap: 10px; /* smaller gap between items */
+    margin: 0 0.4em;
+  }
 
-    #languageArea {
-      margin: 15px 0;
-    }
+  #languageArea {
+    margin: 15px 0;
+  }
 
-    h1 {
-      font-size: 1.5em;
-      line-height: 1.1;
-      text-align: center;
-      margin: 0.5em 1em;
-    }
-    
-    h2, h3 {
-      text-align: center;
-      font-size: 1.2em;
-    }
-    
-    header {
-      padding: 10px 0;
-    }
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0.5em 1em;
+  }
 
-    main {
-      box-sizing: border-box;
-      padding: 0.2em;
-      margin: 0 0.4em;
-    }
-    
-    button {
-      margin: 2em;
-      padding: 20px;
-    }
+  h2,
+  h3 {
+    text-align: center;
+    font-size: 1.2em;
+  }
 
-    
-    label, ol, #error {
-      margin: 0px;
+  header {
+    padding: 10px 0;
+  }
 
-    }
+  main {
+    box-sizing: border-box;
+    padding: 0.2em;
+    margin: 0 0.4em;
+  }
 
-    li {
-      margin: 1em 0em;
+  button {
+    margin: 2em;
+    padding: 20px;
+  }
 
-    }
-    
-    iframe {
-      height: 1520px;
-    }
+  label,
+  ol,
+  #error {
+    margin: 0px;
+  }
 
-    #agreeArea {
-      padding: 0.2em;
-    }
-    
-    
-    input.larger {
-      margin: 14px;
-    }
+  li {
+    margin: 1em 0em;
+  }
 
-    #backToMain {
-      display: block;
-      padding: 10px 0;
-    }
-    
-    #birdImg {
-      display: none;
-    }
-    
-    #bookingDiv
-    {
-      padding: 1em 0;
-    }
-    address {
-      text-align: left;
-      font-size: 0.8em;
-      line-height: 1.4em;
-    }
+  iframe {
+    height: 1520px;
+  }
 
+  #agreeArea {
+    padding: 0.2em;
+  }
+
+  input.larger {
+    margin: 14px;
+  }
+
+  #backToMain {
+    display: block;
+    padding: 10px 0;
+  }
+
+  #birdImg {
+    display: none;
+  }
+
+  #bookingDiv {
+    padding: 1em 0;
+  }
+  address {
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
 }
-  
-
